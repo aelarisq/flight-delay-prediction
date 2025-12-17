@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# --- Data & Large Files ---
+#data/
+#*.csv
+*.tsv
+*.json
+*.xml
+*.xlsx
+*.xls
+*.parquet
+*.pickle
+*.pkl
+*.zip
+*.tar.gz
+*.gzip
+
+# --- Models & Weights ---
+*.h5
+*.pt
+*.pth
+*.onnx
+*.cbm
+*.joblib
+*.model
+
+# --- Secrets & Configs ---
+.env
+config.py
+secrets.json
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
